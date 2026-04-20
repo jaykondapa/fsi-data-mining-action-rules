@@ -42,14 +42,15 @@ This project analyzes the **Fragile States Index (FSI)** using machine learning 
 
 ## 📈 Results
 
-| Model | Accuracy |
-|------|--------|
-| Random Forest | ~96% |
-| J48 | ~92% |
-| Bagging | ~90% |
-| PART | ~91–93% |
+| Model | Without Features | With Features | Change |
+|------|------------------:|--------------:|-------:|
+| Bagging | 90.66% | 90.91% | +0.25% |
+| J48 | 92.42% | 92.93% | +0.51% |
+| PART | 93.18% | 91.16% | -2.02% |
+| Random Forest | 96.46% | 96.21% | -0.25% |
 
-👉 External features improved **interpretability**, not predictive accuracy.
+👉 Random Forest achieved the best overall accuracy.  
+👉 Additional features did not consistently improve prediction, but they made the models more interpretable.
 
 ---
 
