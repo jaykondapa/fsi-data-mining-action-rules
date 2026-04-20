@@ -69,9 +69,20 @@ This project analyzes the **Fragile States Index (FSI)** using machine learning 
 
 ## 📊 Visual Insights
 
-![Correlation Heatmap](images/Correlation Heatmap.jpeg)
-![Scatter Plot](images/scatterplot1.jpeg)
+### Correlation Heatmap
+![Correlation Heatmap](images/correlation_heatmap.png)
 
+### Internet Usage vs FSI
+![Internet vs FSI](images/internet_vs_fsi.png)
+
+### GDP per Capita vs FSI
+![GDP vs FSI](images/gdp_vs_fsi.png)
+
+### Life Expectancy vs FSI
+![Life Expectancy vs FSI](images/life_expectancy_vs_fsi.png)
+
+### Military Expenditure vs FSI
+![Military vs FSI](images/military_vs_fsi.png)
 ---
 
 ## 🛠️ Tech Stack
