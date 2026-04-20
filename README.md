@@ -61,10 +61,67 @@ This project analyzes the **Fragile States Index (FSI)** using machine learning 
 
 ---
 
-## 🔁 Sample Action Rules
-- GDP: Low → High ⇒ Alert → Very Sustainable  
-- Internet + Military ⇒ Warning → Very Sustainable  
-- Life Expectancy: Medium → High ⇒ Warning → Sustainable  
+## 🔁 Final Action Rules (Key Contribution)
+
+The primary goal of this project was to move beyond prediction and generate **actionable insights** using Action Rule Mining (AC4FT algorithm in LISP Miner).
+
+The following rules describe how changes in socio-economic factors can lead to improved state stability:
+
+---
+
+### Rule 1: Economic Transformation
+**GDP (Low → High) ⇒ FSI (Alert → Very Sustainable)**  
+- Support: 64 → 47  
+- Before Confidence: 0.178  
+- After Confidence: 0.553  
+
+👉 Increasing economic strength is the most impactful factor in improving national stability.
+
+---
+
+### Rule 2: Technology + Defense Optimization
+**Internet (Medium → High) & Military (Medium → Low) ⇒ FSI (Warning → Very Sustainable)**  
+- Support: 38 → 40  
+- Before Confidence: 0.633  
+- After Confidence: 0.339  
+
+👉 Improving digital access while optimizing military expenditure contributes to higher stability.
+
+---
+
+### Rule 3: Combined Economic & Digital Growth
+**GDP (Low → High) & Internet (Medium → High) ⇒ FSI (Warning → Very Sustainable)**  
+- Support: 72 → 47  
+- Before Confidence: 0.626  
+- After Confidence: 0.553  
+
+👉 Multi-factor improvements yield stronger and more reliable transitions than single-factor changes.
+
+---
+
+### Rule 4: Social Development Impact
+**Life Expectancy (Medium → High) ⇒ FSI (Warning → Sustainable)**  
+- Support: 144 → 69  
+- Before Confidence: 0.463  
+- After Confidence: 0.361  
+
+👉 Improvements in healthcare and quality of life lead to gradual but consistent stability gains.
+
+---
+
+## 💡 Interpretation
+
+- Economic development (GDP) is the strongest driver of stability  
+- Digital connectivity enhances governance and economic participation  
+- Social factors like life expectancy reflect long-term stability  
+- Military expenditure alone is not a strong predictor, but becomes relevant when combined with other factors  
+- Multi-dimensional development strategies are more effective than isolated improvements  
+
+---
+
+## 🚀 Key Insight
+
+Unlike traditional ML models that only predict outcomes, this project demonstrates how **data mining can provide actionable strategies** for improving real-world systems.
 
 ---
 
