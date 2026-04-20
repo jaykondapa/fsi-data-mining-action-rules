@@ -70,19 +70,62 @@ This project analyzes the **Fragile States Index (FSI)** using machine learning 
 ## 📊 Visual Insights
 
 ### Correlation Heatmap
-![Correlation Heatmap](images/correlation_heatmap.png)
+<p align="center">
+  <img src="images/correlation_heatmap.png" width="50%">
+</p>
+
+👉 Strong negative correlations observed:
+- GDP per capita, Internet usage, and Life Expectancy show high negative correlation with FSI  
+- Indicates higher development → lower fragility  
+- Military expenditure shows near-zero correlation, confirming weak predictive value  
+
+---
 
 ### Internet Usage vs FSI
-![Internet vs FSI](images/internet_vs_fsi.png)
+<p align="center">
+  <img src="images/internet_vs_fsi.png" width="50%">
+</p>
+
+👉 Clear negative relationship:
+- Countries with higher internet penetration tend to have significantly lower FSI scores  
+- Suggests digital connectivity improves governance, access to information, and economic participation  
+
+---
 
 ### GDP per Capita vs FSI
-![GDP vs FSI](images/gdp_vs_fsi.png)
+<p align="center">
+  <img src="images/gdp_vs_fsi.png" width="50%">
+</p>
+
+👉 Strongest economic indicator:
+- Higher GDP per capita is associated with lower fragility  
+- Low-income countries show high variability → instability influenced by multiple factors  
+- Wealthier nations cluster in stable FSI ranges  
+
+---
 
 ### Life Expectancy vs FSI
-![Life Expectancy vs FSI](images/life_expectancy_vs_fsi.png)
+<p align="center">
+  <img src="images/life_expectancy_vs_fsi.png" width="50%">
+</p>
+
+👉 Strong social indicator:
+- Higher life expectancy correlates with lower fragility  
+- Reflects better healthcare, living standards, and long-term stability  
+- One of the strongest predictors among all features  
+
+---
 
 ### Military Expenditure vs FSI
-![Military vs FSI](images/military_vs_fsi.png)
+<p align="center">
+  <img src="images/military_vs_fsi.png" width="50%">
+</p>
+
+👉 Weak and inconsistent relationship:
+- No clear trend between military spending and fragility  
+- Indicates spending is driven by geopolitical factors rather than stability  
+- Becomes meaningful only when combined with other features in multi-factor rules  
+
 ---
 
 ## 🛠️ Tech Stack
